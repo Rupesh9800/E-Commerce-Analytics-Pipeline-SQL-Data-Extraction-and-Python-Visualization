@@ -46,21 +46,41 @@ Key columns in the dataset include:
 
 ## Exploratory Data Analysis (EDA)
 
-- **Customer Distribution**: Analyzed the geographical distribution of customers, noting that São Paulo, Campinas, and Belo Horizonte are major hubs.
-- **Order Trends**: Examined order volumes over time, identifying peak periods and seasonal trends.
-- **Sales by Product Category**: Evaluated revenue contributions by different product categories, with high performance in "Bed Table Bath" and "Furniture Decoration."
-- **Payment Preferences**: Found that nearly all orders were paid in installments, indicating a common payment preference.
-- **Price vs. Frequency**: Investigated the relationship between product price and purchase frequency, finding a slight negative correlation.
-- **Monthly Order Patterns**: Analyzed monthly order trends to forecast future demand.
+- **Customer Distribution**: Analyzed the geographical distribution of customers, noting that São Paulo, Rio de Janeiro, and Belo Horizonte have the highest number of customers.
+- **Order Trends**: In 2017, a total of 315,707 orders were placed, indicating high engagement throughout the year.
+- **Sales by Product Category**: Evaluated revenue contributions by different product categories:
+  - Furniture and Decoration: $114,414,100
+  - Bed, Table, and Bath: $137,004,300
+  - Telephony: $38,950,560
+  These categories significantly contribute to overall revenue, suggesting strong customer preference.
+- **Payment Preferences**: An overwhelming majority (99.9981%) of orders were paid in installments, highlighting a common payment preference.
+- **Customer Distribution by State**: São Paulo has the highest number of customers, followed by Rio de Janeiro and Minas Gerais. This information is useful for targeted marketing and inventory distribution.
+- **Monthly Order Patterns**: Analyzed monthly order trends for 2018, noting peaks in May and November, suggesting possible promotional events or seasonal trends.
+- **Average Number of Products per Order by City**: Cities such as Padre Carvalho, Celso Ramos, and Datas show a high average number of products per order, indicating substantial purchasing behavior.
+- **Price vs. Frequency**: Found a weak negative correlation (-0.106) between product price and purchase frequency, suggesting higher-priced products are purchased less frequently.
+- **Revenue Contribution by Sellers**: Identified top-performing sellers based on total revenue generated, helping recognize key sellers and optimize vendor relationships.
+- **Cumulative Sales per Month**: Revealed steady growth in sales with significant monthly spikes, crucial for planning sales strategies and inventory management.
+- **Year-Over-Year Growth Rate**: Showed substantial growth with a 12,112.70% increase from 2016 to 2017 and a 20.00% increase from 2017 to 2018, indicating a rapidly expanding market.
+- **Customer Retention Rate**: Indicated a significant percentage of customers make another purchase within six months, reflecting customer loyalty and the effectiveness of retention strategies.
+- **Top Customers by Spending**: Identified high-value customers each year, providing insights for personalized marketing and enhanced shopping experiences.
 
 ## Key Insights
 
-- **Geographical Distribution**: São Paulo and Minas Gerais have the highest customer counts, suggesting potential for targeted regional marketing.
-- **Category Performance**: High revenue categories include "Bed Table Bath" and "Health Beauty," which should be prioritized in marketing strategies.
-- **Payment Trends**: The predominant use of installment payments highlights a need for flexible payment options.
-- **Order Trends**: Seasonal variations and monthly trends can guide inventory and promotional planning.
-- **Customer Behavior**: High-value customers and frequent buyers provide opportunities for loyalty programs and personalized offers.
+- **Customer Distribution by City**: São Paulo, Rio de Janeiro, and Belo Horizonte are major customer hubs, offering opportunities for targeted regional marketing.
+- **Order Trends in 2017**: High order volume in 2017 reflects strong customer engagement throughout the year.
+- **Sales Performance by Category**: Prioritize high-revenue categories like Furniture and Decoration, Bed, Table, and Bath, and Telephony in marketing strategies.
+- **Payment Installments**: The prevalent use of installment payments suggests a need for flexible payment options.
+- **Customer Distribution by State**: São Paulo, Rio de Janeiro, and Minas Gerais are key regions for targeted marketing and inventory distribution.
+- **Monthly Order Count for 2018**: Peaks in May and November indicate periods of high purchasing activity, useful for promotional planning.
+- **Average Number of Products per Order by City**: Higher purchasing behavior in certain cities provides insights into regional purchasing trends.
+- **Correlation between Product Price and Purchase Frequency**: Higher-priced products are less frequently purchased, suggesting price sensitivity.
+- **Revenue Contribution by Sellers**: Identifying top sellers can help in optimizing vendor relationships and improving sales performance.
+- **Cumulative Sales per Month**: Steady growth with notable spikes helps in strategic sales and inventory planning.
+- **Year-Over-Year Growth Rate**: Significant growth rates highlight an expanding market and increasing customer base.
+- **Customer Retention Rate**: High retention rates indicate successful customer engagement and loyalty programs.
+- **Top Customers by Spending**: Focus on high-value customers for personalized marketing and enhanced customer experiences.
 
 ## Conclusion
 
-The analysis provides a comprehensive understanding of e-commerce sales dynamics, customer behavior, and payment preferences. The insights derived from this study can help enhance marketing strategies, optimize inventory management, and improve overall business performance. The findings are valuable for e-commerce platforms looking to tailor their offerings and strategies to better meet customer needs and preferences.
+The analysis of the e-commerce dataset has provided valuable insights into customer behavior, sales trends, and product performance. These findings can inform strategic decisions related to marketing, inventory management, and customer engagement, ultimately driving business growth and enhancing customer satisfaction.
+
