@@ -1,85 +1,66 @@
 # E-Commerce Data Analysis
 
-## Project Description
+This repository contains an analysis of e-commerce data, focusing on customer behavior, sales trends, and performance across various product categories. The goal is to explore the data, identify key factors affecting sales and customer behavior, and provide actionable insights for business improvement.
 
-This project aims to analyze e-commerce data to understand customer behavior, sales trends, and key factors affecting sales performance. The analysis focuses on exploring relationships between various features and their impact on sales, leveraging both exploratory data analysis (EDA) and advanced modeling techniques.
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Data Overview](#data-overview)
+3. [Data Cleaning](#data-cleaning)
+4. [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+5. [Key Insights](#key-insights)
+6. [Conclusion](#conclusion)
 
-## Dataset
+## Introduction
 
-The dataset contains sales information for products sold between May 2014 and May 2015. Key features include:
+The project aims to:
+- Understand customer behavior and sales patterns in the e-commerce domain.
+- Analyze the impact of various factors on sales and payment preferences.
+- Provide insights that can help in strategic decision-making for marketing and inventory management.
 
-- **Order Details**: Order IDs, timestamps, product details, prices, and payment information.
-- **Customer Information**: Customer IDs, cities, states, and demographics.
-- **Product Details**: Product IDs, categories, prices, and descriptions.
+## Data Overview
 
-## Objective
+The dataset includes the following files:
+- **customers.csv**: Information about customers.
+- **orders.csv**: Details of orders placed.
+- **sellers.csv**: Information about sellers.
+- **products.csv**: Details of products.
+- **geolocation.csv**: Geographical location information.
+- **payments.csv**: Payment details for orders.
+- **order_items.csv**: Items included in each order.
 
-- Understand factors affecting house prices.
-- Build predictive models to forecast house prices.
-- Provide insights for real estate stakeholders to make informed decisions.
+Key columns in the dataset include:
+- `customer_id`: Unique identifier for a customer.
+- `order_id`: Unique identifier for an order.
+- `product_id`: Unique identifier for a product.
+- `price`: Price of the product.
+- `quantity`: Number of units purchased.
+- `payment_type`: Method of payment (e.g., installment, credit card).
+- `state`: Geographical location of the customer.
+- `order_date`: Date when the order was placed.
 
-## Key Findings
+## Data Cleaning
 
-### Order Statistics
+- Removed redundant columns that do not contribute to the analysis.
+- Handled missing values by imputing or removing incomplete records.
+- Standardized date formats and normalized categorical variables.
 
-- **Total Orders in 2017**: 315,707
-- **Percentage of Orders Paid in Installments**: 99.9981%
+## Exploratory Data Analysis (EDA)
 
-### Sales Analysis by Category
+- **Customer Distribution**: Analyzed the geographical distribution of customers, noting that São Paulo, Campinas, and Belo Horizonte are major hubs.
+- **Order Trends**: Examined order volumes over time, identifying peak periods and seasonal trends.
+- **Sales by Product Category**: Evaluated revenue contributions by different product categories, with high performance in "Bed Table Bath" and "Furniture Decoration."
+- **Payment Preferences**: Found that nearly all orders were paid in installments, indicating a common payment preference.
+- **Price vs. Frequency**: Investigated the relationship between product price and purchase frequency, finding a slight negative correlation.
+- **Monthly Order Patterns**: Analyzed monthly order trends to forecast future demand.
 
-- **Top Categories by Sales**:
-  - **Bed Table Bath**: $137,004,300
-  - **Furniture Decoration**: $114,414,100
-  - **Automotive**: $68,183,550
-  - **Telephony**: $38,950,560
-  - **Perfumery**: $40,539,090
+## Key Insights
 
-### Customer Behavior Insights
+- **Geographical Distribution**: São Paulo and Minas Gerais have the highest customer counts, suggesting potential for targeted regional marketing.
+- **Category Performance**: High revenue categories include "Bed Table Bath" and "Health Beauty," which should be prioritized in marketing strategies.
+- **Payment Trends**: The predominant use of installment payments highlights a need for flexible payment options.
+- **Order Trends**: Seasonal variations and monthly trends can guide inventory and promotional planning.
+- **Customer Behavior**: High-value customers and frequent buyers provide opportunities for loyalty programs and personalized offers.
 
-- **Cities with Highest Average Products per Order**:
-  - Padre Carvalho: 196.00 products/order
-  - Celso Ramos: 182.00 products/order
-  - Datas: 168.00 products/order
+## Conclusion
 
-### Revenue Contribution by Category
-
-- **Highest Revenue Contribution**:
-  - Bed Table Bath: 213.95%
-  - Health Beauty: 207.06%
-  - Computer Accessories: 198.06%
-
-### Correlation Analysis
-
-- **Product Price vs. Purchase Frequency**: Correlation coefficient of -0.106
-
-### Moving Average of Order Values
-
-- Analyzing the moving average provides insights into customer spending patterns over time.
-
-### Cumulative Sales per Month
-
-- **2017**: Cumulative sales reached $204,655,100 in December.
-- **2018**: Continued growth with cumulative sales of $448,248,400 by October.
-
-### Year-over-Year Growth Rate
-
-- **2016 to 2017**: 12,112.70% growth
-- **2017 to 2018**: 20.00% growth
-
-
-
-## Tools and Technologies
-
-- **Programming Languages**: Python
-- **Libraries**: Pandas, NumPy, Matplotlib, Seaborn
-- **Database**: MySQL
-- **Techniques**: Data Cleaning, Exploratory Data Analysis, Data Visualization, SQL Queries
-
-## Getting Started
-
-### Prerequisites
-
-- Python 3.x
-- MySQL Database
-- Required Libraries: `pandas`, `numpy`, `matplotlib`, `seaborn`, `mysql-connector-python`
-
+The analysis provides a comprehensive understanding of e-commerce sales dynamics, customer behavior, and payment preferences. The insights derived from this study can help enhance marketing strategies, optimize inventory management, and improve overall business performance. The findings are valuable for e-commerce platforms looking to tailor their offerings and strategies to better meet customer needs and preferences.
